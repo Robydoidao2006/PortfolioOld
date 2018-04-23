@@ -1,0 +1,13 @@
+{
+    "name": "project_name",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "express": "4.13.3"
+    },
+    "author": "Robert Fialho",
+    "license": "ISC"
+}
