@@ -3,7 +3,6 @@
 
 https://robydoidao2006.github.io/Portfolio/
 
-
 ## What the Portfolio Looks Like.
 
 ![](public/images/github/header.jpg)
