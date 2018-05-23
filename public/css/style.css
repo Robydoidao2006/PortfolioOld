@@ -246,11 +246,9 @@ header .intro-text {
 }
 ul.cat li {
 	display: inline-block;
-}
-ol.type li {
-	display: inline-block;
 	margin-left: 20px;
 }
+
 ol.type li a {
 	border: 1px solid #777;
 	color: #555;
@@ -316,7 +314,7 @@ ol.type li a:hover {
 	transform: scale(1.1);
 }
 .portfolio-item .hover-bg {
-	height: 195px;
+	height: 0 auto;
 	overflow: hidden;
 	position: relative;
 }
@@ -475,3 +473,18 @@ li:hover {
  #footer p {
  	font-size: 13px;
  }
+
+
+ @media only screen and (max-width: 600px){
+	ul.cat li{
+	   margin: 0px;
+   } 
+} 
+
+@media only screen and (max-width: 400px){
+	ul.cat li{
+	  float:left;
+	  margin-top: 20px;
+	  padding: 10px;
+   } 
+} 
